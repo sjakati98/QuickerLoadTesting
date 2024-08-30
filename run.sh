@@ -1,0 +1,1 @@
+python script.py http://localhost:8080/configs-for-user --method POST --json-template '{"api_key": "key", "user_id": "{{random_string}}"}' --json-paths "$.field.*.nestedField" --rate 10 --requests 100 --output results.csv
