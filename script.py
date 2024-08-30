@@ -320,9 +320,8 @@ design = r"""
 (__((__((___()()()------------------------------------'  |_____|
 """
 
-print(design)
-print("Load Testing: Try to blow up your service.")
-print("=" * 40)
-
 if __name__ == "__main__":
+    print(design)
+    print("Load Testing: Try to blow up your service.")
+    print("=" * 40)
     asyncio.run(main())

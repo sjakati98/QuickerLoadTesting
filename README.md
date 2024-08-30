@@ -1,5 +1,7 @@
 # HTTP Load Testing Script
 
+![Boom](public/boom.png)
+
 ## Overview
 
 This Python script is a versatile, rate-limited HTTP load testing tool designed for API performance testing and analysis. It supports both GET and POST requests, offers customizable JSON payloads, and provides detailed output including latency distribution charts.
